@@ -1,0 +1,37 @@
+<div class="container py-4">
+  <h2 class="mb-4">Giỏ hàng của bạn</h2>
+  <div *ngIf="cartItems.length === 0" class="alert alert-info text-center">
+    Giỏ hàng của bạn đang trống
+  </div>
+  <div *ngIf="cartItems.length > 0">
+    <div class="list-group mb-4">
+      <div *ngFor="let item of cartItems" class="list-group-item d-flex align-items-center gap-3">
+        <img [src]="item.image" [alt]="item.name" class="rounded" style="width:70px;height:70px;object-fit:cover;">
+        <div class="flex-grow-1">
+          <h5 class="mb-1">{{item.name}}</h5>
+          <div class="text-secondary small">{{item.brand}}</div>
+          <div class="fw-bold text-primary">{{ item.price * 25000 | number:'1.0-0' }}đ</div>
+        </div>
+        <div class="d-flex align-items-center gap-2">
+          <button class="btn btn-outline-secondary btn-sm" (click)="updateQuantity(item.id, -1)">-</button>
+          <span class="mx-1">{{item.quantity}}</span>
+          <button class="btn btn-outline-secondary btn-sm" (click)="updateQuantity(item.id, 1)">+</button>
+        </div>
+        <div class="fw-bold text-end" style="min-width:80px;">{{item.price * 25000 * item.quantity | number:'1.0-0'}} đ
+        </div>
+        <button class="btn btn-danger btn-sm ms-2" (click)="removeFromCart(item.id)"><i
+            class="fas fa-trash"></i></button>
+      </div>
+    </div>
+    <div class="card p-3 shadow-sm mb-3">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <span class="fw-bold">Tổng cộng:</span>
+        <span class="fs-5 text-primary fw-bold">${{total * 25000 | number:'1.0-0'}}</span>
+      </div>
+      <div class="d-flex gap-2">
+        <button class="btn btn-outline-danger flex-fill" (click)="clearCart()">Xóa giỏ hàng</button>
+        <button class="btn btn-primary flex-fill" (click)="goToCheckout()">Thanh toán</button>
+      </div>
+    </div>
+  </div>
+</div>

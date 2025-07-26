@@ -1,0 +1,32 @@
+{
+  "categories": [
+    {
+      "id": "gaming",
+      "name": "Gaming",
+      "icon": "fas fa-gamepad",
+      "count": 5,
+      "description": "Laptop chuyên dụng cho game thủ với hiệu năng cao và card đồ họa mạnh mẽ"
+    },
+    {
+      "id": "business",
+      "name": "Văn phòng",
+      "icon": "fas fa-briefcase",
+      "count": 8,
+      "description": "Laptop phù hợp cho công việc văn phòng, nhẹ và có thời lượng pin tốt"
+    },
+    {
+      "id": "premium",
+      "name": "Cao cấp",
+      "icon": "fas fa-gem",
+      "count": 4,
+      "description": "Laptop cao cấp với thiết kế sang trọng và hiệu năng vượt trội"
+    },
+    {
+      "id": "student",
+      "name": "Sinh viên",
+      "icon": "fas fa-graduation-cap",
+      "count": 6,
+      "description": "Laptop giá rẻ phù hợp cho sinh viên với đầy đủ tính năng cơ bản"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+.admin-dashboard-pro {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f6fb;
+}
+.sidebar {
+  width: 240px;
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.07);
+}
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 2rem 1.5rem 1rem 1.5rem;
+  border-bottom: 1px solid #333;
+  letter-spacing: 1px;
+}
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem;
+}
+.sidebar-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 1.08rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.15s;
+}
+.sidebar-nav a.active,
+.sidebar-nav a:hover {
+  background: #2d8cf0;
+  color: #fff;
+}
+.main-content {
+  flex: 1;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 2rem 2.5rem 1.5rem 2.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+.main-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #232526;
+  margin: 0;
+}
+.admin-user {
+  font-size: 1.2rem;
+  color: #2d8cf0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin: 2.5rem 2.5rem 1.5rem 2.5rem;
+}
+.stat-card {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 2rem 1.5rem;
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+.stat-card:hover {
+  box-shadow: 0 6px 24px rgba(45, 140, 240, 0.13);
+  transform: translateY(-3px) scale(1.03);
+}
+.stat-icon {
+  font-size: 2.5rem;
+  color: #2d8cf0;
+  background: #f0f7ff;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stat-products .stat-icon {
+  color: #2d8cf0;
+  background: #f0f7ff;
+}
+.stat-orders .stat-icon {
+  color: #00b894;
+  background: #eafaf1;
+}
+.stat-users .stat-icon {
+  color: #fdcb6e;
+  background: #fff9e5;
+}
+.stat-revenue .stat-icon {
+  color: #e17055;
+  background: #fff0ee;
+}
+.stat-label {
+  font-size: 1.1rem;
+  color: #888;
+}
+.stat-value {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #232526;
+}
+.dashboard-table {
+  background: #fff;
+  margin: 0 2.5rem 2.5rem 2.5rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  padding: 2rem;
+}
+.dashboard-table h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.dashboard-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.dashboard-table th,
+.dashboard-table td {
+  padding: 0.85rem 1rem;
+  text-align: left;
+}
+.dashboard-table th {
+  background: #f4f6fb;
+  color: #232526;
+  font-weight: 600;
+  border-bottom: 2px solid #e5e7eb;
+}
+.dashboard-table tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+.dashboard-table tr:last-child {
+  border-bottom: none;
+}
+.badge {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  border-radius: 1em;
+  font-size: 0.95em;
+  font-weight: 500;
+  color: #fff;
+}
+.badge-success {
+  background: #00b894;
+}
+.badge-warning {
+  background: #fdcb6e;
+  color: #232526;
+}
+.badge-danger {
+  background: #e17055;
+}
+@media (max-width: 900px) {
+  .admin-dashboard-pro {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+  }
+  .sidebar-header {
+    padding: 1rem 0.5rem;
+  }
+  .main-header,
+  .stats-grid,
+  .dashboard-table {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .main-header,
+  .dashboard-table {
+    padding: 1rem;
+  }
+}

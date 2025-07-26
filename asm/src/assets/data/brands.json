@@ -1,0 +1,70 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "name": "Dell",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Dell_Logo.png/640px-Dell_Logo.png",
+      "description": "Dell là một trong những nhà sản xuất máy tính hàng đầu thế giới, nổi tiếng với dòng laptop XPS và Alienware",
+      "founded": 1984,
+      "website": "https://www.dell.com"
+    },
+    {
+    "id": 2,
+    "name": "HP",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4a/HP_logo_2012.svg",
+    "description": "HP (Hewlett-Packard) cung cấp nhiều dòng laptop từ phổ thông đến cao cấp với chất lượng ổn định",
+    "founded": 1939,
+    "website": "https://www.hp.com"
+  },
+
+
+    {
+      "id": 3,
+      "name": "Lenovo",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Lenovo_logo_2015.svg/2560px-Lenovo_logo_2015.svg.png",
+      "description": "Lenovo là nhà sản xuất máy tính lớn nhất thế giới, nổi tiếng với dòng ThinkPad dành cho doanh nghiệp",
+      "founded": 1984,
+      "website": "https://www.lenovo.com"
+    },
+    {
+      "id": 4,
+      "name": "Apple",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/488px-Apple_logo_black.svg.png",
+      "description": "Apple nổi tiếng với dòng MacBook có thiết kế sang trọng, hiệu năng mạnh mẽ và hệ điều hành macOS",
+      "founded": 1976,
+      "website": "https://www.apple.com"
+    },
+    {
+      "id": 5,
+      "name": "Asus",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/ASUS_Logo.svg/2560px-ASUS_Logo.svg.png",
+      "description": "Asus cung cấp nhiều dòng laptop đa dạng từ gaming ROG đến ultrabook ZenBook với giá cả cạnh tranh",
+      "founded": 1989,
+      "website": "https://www.asus.com"
+    },
+    {
+      "id": 6,
+      "name": "Acer",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Acer_2011.svg/2560px-Acer_2011.svg.png",
+      "description": "Acer nổi tiếng với các dòng laptop giá rẻ và tầm trung, phù hợp với nhiều đối tượng người dùng",
+      "founded": 1976,
+      "website": "https://www.acer.com"
+    },
+   {
+    "id": 7,
+    "name": "MSI",
+    "logo": "https://www.kindpng.com/picc/m/221-2217363_msi-logo-png-transparent-png.png",
+    "description": "MSI chuyên về laptop gaming với hiệu năng cao và hệ thống tản nhiệt hiệu quả",
+    "founded": 1986,
+    "website": "https://www.msi.com"
+  },
+  {
+    "id": 8,
+    "name": "Razer",
+    "logo": "https://www.pngmart.com/files/3/Razer-Logo-PNG-File.png",
+    "description": "Razer là thương hiệu nổi tiếng trong lĩnh vực gaming với các sản phẩm cao cấp và thiết kế độc đáo",
+    "founded": 2005,
+    "website": "https://www.razer.com"
+  }
+  ]
+}

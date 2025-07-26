@@ -1,0 +1,49 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn A",
+      "title": "Khách hàng",
+      "text": "Tôi rất hài lòng với chiếc laptop mới mua từ Laptop Store. Hiệu năng tuyệt vời và dịch vụ chăm sóc khách hàng rất tốt!",
+      "rating": 5,
+      "avatar": "https://i.pravatar.cc/100?img=1",
+      "date": "2025-06-15"
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị B",
+      "title": "Sinh viên",
+      "text": "Laptop Store có nhiều mẫu laptop phù hợp với sinh viên, giá cả hợp lý và chất lượng tốt. Tôi đã giới thiệu cho nhiều bạn bè.",
+      "rating": 4,
+      "avatar": "https://i.pravatar.cc/100?img=5",
+      "date": "2025-05-20"
+    },
+    {
+      "id": 3,
+      "name": "Lê Văn C",
+      "title": "Nhân viên văn phòng",
+      "text": "Đội ngũ tư vấn rất nhiệt tình và chuyên nghiệp. Họ đã giúp tôi chọn được chiếc laptop phù hợp với công việc của mình.",
+      "rating": 5,
+      "avatar": "https://i.pravatar.cc/100?img=3",
+      "date": "2025-07-02"
+    },
+    {
+      "id": 4,
+      "name": "Phạm Thị D",
+      "title": "Freelancer",
+      "text": "Tôi làm việc trong lĩnh vực thiết kế đồ họa và chiếc laptop từ Laptop Store đáp ứng hoàn hảo nhu cầu của tôi. Màn hình hiển thị màu sắc chính xác và hiệu năng mạnh mẽ.",
+      "rating": 5,
+      "avatar": "https://i.pravatar.cc/100?img=9",
+      "date": "2025-06-28"
+    },
+    {
+      "id": 5,
+      "name": "Hoàng Văn E",
+      "title": "Kỹ sư phần mềm",
+      "text": "Đã mua laptop tại đây 2 lần và đều rất hài lòng. Sản phẩm chất lượng, giá cả hợp lý và chế độ bảo hành tốt.",
+      "rating": 4,
+      "avatar": "https://i.pravatar.cc/100?img=7",
+      "date": "2025-07-10"
+    }
+  ]
+}

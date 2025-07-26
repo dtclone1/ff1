@@ -1,0 +1,330 @@
+{
+  "laptops": [
+    {
+      "id": 1,
+      "name": "Dell XPS 13",
+      "price": 999.99,
+      "image": "https://hanoilab.com/wp-content/uploads/2023/03/Dell-xps-13-9315-hanoilab.jpg",
+      "brand": "Dell",
+      "specs": {
+        "cpu": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "screen": "13.3 inch 4K"
+      }
+    },
+    {
+      "id": 2,
+      "name": "MacBook Pro M2",
+      "price": 1299.99,
+      "image": "https://www.apple.com/newsroom/images/product/mac/standard/Apple-MacBook-Pro-M2-Pro-and-M2-Max-hero-230117_Full-Bleed-Image.jpg.xlarge_2x.jpg",
+      "brand": "Apple",
+      "specs": {
+        "cpu": "M2 Chip",
+        "ram": "8GB",
+        "storage": "256GB SSD",
+        "screen": "13.3 inch Retina"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Lenovo ThinkPad X1",
+      "price": 1199.99,
+      "image": "https://laptopkhanhtran.vn/pic/product/ThinkPad-_638640830315610019_HasThumb.jpg",
+      "brand": "Lenovo",
+      "specs": {
+        "cpu": "Intel Core i5",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "screen": "14 inch FHD"
+      }
+    },
+    {
+      "id": 4,
+      "name": "HP Envy x360",
+      "price": 899.99,
+      "image": "https://product.hstatic.net/1000233206/product/hp-envy-x360-14-fc0155tu-ay8w3pa_2_7290c1a96cb744e4a1ec172d0e72f010_1024x1024.png",
+      "brand": "HP",
+      "specs": {
+        "cpu": "AMD Ryzen 7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "screen": "13.3 inch FHD"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Asus ROG Zephyrus G14",
+      "price": 1499.99,
+      "image": "https://bizweb.dktcdn.net/100/487/578/files/2024-asus-zephyrus-gaming-laptops.jpg?v=1716789607574",
+      "brand": "Asus",
+      "specs": {
+        "cpu": "AMD Ryzen 9",
+        "ram": "32GB",
+        "storage": "1TB SSD",
+        "screen": "14 inch QHD"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Acer Swift 5",
+      "price": 899.99,
+      "image": "https://www.acervietnam.com.vn/wp-content/uploads/2021/02/thumbnail.png",
+      "brand": "Acer",
+      "specs": {
+        "cpu": "Intel Core i5",
+        "ram": "8GB",
+        "storage": "512GB SSD",
+        "screen": "14 inch FHD"
+      }
+    },
+    {
+      "id": 7,
+      "name": "MSI Gaming GS66",
+      "price": 1799.99,
+      "image": "https://kimlongcenter.com/upload/image/tintuc/MSI%20GS66%20STEALTH%2010SG/MSI-GS66-STALEG-10SG.jpg",
+      "brand": "MSI",
+      "specs": {
+        "cpu": "Intel Core i7",
+        "ram": "32GB",
+        "storage": "1TB SSD",
+        "screen": "15.6 inch FHD"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Razer Blade 15",
+      "price": 1999.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBWjAshGb-BtvJAFckkciCtrNxldjyCYMyYw&s",
+      "brand": "Razer",
+      "specs": {
+        "cpu": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "screen": "15.6 inch 4K"
+      }
+    },
+    {
+      "id": 9,
+      "name": "LG Gram 17",
+      "price": 1399.99,
+      "image": "https://www.lg.com/content/dam/channel/wcms/vn/images/gram-17Z90S-G-01-3-lg-gram-m.jpg",
+      "brand": "LG",
+      "specs": {
+        "cpu": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "screen": "17 inch WQXGA"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Microsoft Surface Laptop 4",
+      "price": 1299.99,
+      "image": "https://i.ytimg.com/vi/Z2MyXuHstIs/hqdefault.jpg",
+      "brand": "Microsoft",
+      "specs": {
+        "cpu": "AMD Ryzen 5",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "screen": "13.5 inch Touch"
+      }
+    },
+  {
+    "id": 11,
+    "name": "Dell Inspiron 14",
+    "price": 749.99,
+    "image": "https://hanoilab.com/wp-content/uploads/2023/03/Dell-xps-13-9315-hanoilab.jpg",
+    "brand": "Dell",
+    "specs": {
+      "cpu": "AMD Ryzen 5",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "screen": "14 inch FHD"
+    }
+  },
+  {
+    "id": 12,
+    "name": "MacBook Air M2",
+    "price": 1099.99,
+    "image": "https://www.apple.com/newsroom/images/product/mac/standard/Apple-MacBook-Pro-M2-Pro-and-M2-Max-hero-230117_Full-Bleed-Image.jpg.xlarge_2x.jpg",
+    "brand": "Apple",
+    "specs": {
+      "cpu": "M2 Chip",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "screen": "13.6 inch Retina"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Lenovo Yoga Slim 7i",
+    "price": 999.99,
+    "image": "https://laptopkhanhtran.vn/pic/product/ThinkPad-_638640830315610019_HasThumb.jpg",
+    "brand": "Lenovo",
+    "specs": {
+      "cpu": "Intel Core i7",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "screen": "14 inch 2.8K OLED"
+    }
+  },
+  {
+    "id": 14,
+    "name": "HP Spectre x360",
+    "price": 1599.99,
+    "image": "https://product.hstatic.net/1000233206/product/hp-envy-x360-14-fc0155tu-ay8w3pa_2_7290c1a96cb744e4a1ec172d0e72f010_1024x1024.png",
+    "brand": "HP",
+    "specs": {
+      "cpu": "Intel Core i7",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "screen": "13.5 inch UHD Touch"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Asus ZenBook 14 OLED",
+    "price": 999.99,
+    "image": "https://bizweb.dktcdn.net/100/487/578/files/2024-asus-zephyrus-gaming-laptops.jpg?v=1716789607574",
+    "brand": "Asus",
+    "specs": {
+      "cpu": "Intel Core i5",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "screen": "14 inch OLED"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Acer Aspire 5",
+    "price": 599.99,
+    "image": "https://www.acervietnam.com.vn/wp-content/uploads/2021/02/thumbnail.png",
+    "brand": "Acer",
+    "specs": {
+      "cpu": "Intel Core i3",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "screen": "15.6 inch FHD"
+    }
+  },
+  {
+    "id": 17,
+    "name": "MSI Prestige 14",
+    "price": 1199.99,
+    "image": "https://kimlongcenter.com/upload/image/tintuc/MSI%20GS66%20STEALTH%2010SG/MSI-GS66-STALEG-10SG.jpg",
+    "brand": "MSI",
+    "specs": {
+      "cpu": "Intel Core i7",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "screen": "14 inch UHD"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Razer Book 13",
+    "price": 1299.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBWjAshGb-BtvJAFckkciCtrNxldjyCYMyYw&s",
+    "brand": "Razer",
+    "specs": {
+      "cpu": "Intel Core i7",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "screen": "13.4 inch UHD Touch"
+    }
+  },
+  {
+    "id": 19,
+    "name": "LG Gram 14",
+    "price": 1099.99,
+    "image": "https://www.lg.com/content/dam/channel/wcms/vn/images/gram-17Z90S-G-01-3-lg-gram-m.jpg",
+    "brand": "LG",
+    "specs": {
+      "cpu": "Intel Core i5",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "screen": "14 inch WUXGA"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Microsoft Surface Pro 9",
+    "price": 1499.99,
+    "image": "https://i.ytimg.com/vi/Z2MyXuHstIs/hqdefault.jpg",
+    "brand": "Microsoft",
+    "specs": {
+      "cpu": "Intel Core i7",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "screen": "13 inch PixelSense Touch"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Dell XPS 15",
+    "price": 1499.99,
+    "image": "https://hanoilab.com/wp-content/uploads/2023/03/Dell-xps-13-9315-hanoilab.jpg",
+    "brand": "Dell",
+    "specs": {
+      "cpu": "Intel Core i9",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "screen": "15.6 inch 4K OLED"
+    }
+  },
+  {
+    "id": 22,
+    "name": "MacBook Pro M2 Max",
+    "price": 1999.99,
+    "image": "https://www.apple.com/newsroom/images/product/mac/standard/Apple-MacBook-Pro-M2-Pro-and-M2-Max-hero-230117_Full-Bleed-Image.jpg.xlarge_2x.jpg",
+    "brand": "Apple",
+    "specs": {
+      "cpu": "M2 Max Chip",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "screen": "16 inch Retina"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Lenovo ThinkPad X1 Carbon Gen 10",
+    "price": 1399.99,
+    "image": "https://laptopkhanhtran.vn/pic/product/ThinkPad-_638640830315610019_HasThumb.jpg",
+    "brand": "Lenovo",
+    "specs": {
+      "cpu": "Intel Core i7",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "screen": "14 inch FHD Touch"
+    }
+  },
+  {
+    "id": 24,
+    "name": "HP Envy x360 OLED",
+    "price": 1099.99,
+    "image": "https://product.hstatic.net/1000233206/product/hp-envy-x360-14-fc0155tu-ay8w3pa_2_7290c1a96cb744e4a1ec172d0e72f010_1024x1024.png",
+    "brand": "HP",
+    "specs": {
+      "cpu": "Intel Core i7",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "screen": "13.3 inch OLED Touch"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Asus ROG Zephyrus Duo",
+    "price": 1999.99,
+    "image": "https://bizweb.dktcdn.net/100/487/578/files/2024-asus-zephyrus-gaming-laptops.jpg?v=1716789607574",
+    "brand": "Asus",
+    "specs": {
+      "cpu": "AMD Ryzen 9",
+      "ram": "32GB",
+      "storage": "2TB SSD",
+      "screen": "14 inch QHD + Secondary Screen"
+    }
+  }
+  ]
+  
+}
