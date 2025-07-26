@@ -1,0 +1,27 @@
+<div class="login-container">
+  <div class="login-card">
+    <div class="login-header">
+      <h2>Create Account</h2>
+      <p>Join our community</p>
+    </div>
+    <form class="login-form" (ngSubmit)="register()">
+      <div class="form-group">
+        <label for="username" class="form-label"><i class="fas fa-user"></i>Username</label>
+        <input type="text" id="username" name="username" class="form-control" [(ngModel)]="username">
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label"><i class="fas fa-envelope"></i>Email</label>
+        <input type="email" id="email" name="email" class="form-control" [(ngModel)]="email">
+      </div>
+      <div class="form-group">
+        <label for="password" class="form-label"><i class="fas fa-lock"></i>Password</label>
+        <input type="password" id="password" name="password" class="form-control" [(ngModel)]="password">
+      </div>
+      <button type="submit" class="btn-login">Register</button>
+    </form>
+    <div class="register-link">
+      <span>Already have an account?</span>
+      <a routerLink="/login" class="btn-link">Login</a>
+    </div>
+  </div>
+</div>

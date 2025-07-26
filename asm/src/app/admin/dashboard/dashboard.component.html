@@ -1,0 +1,90 @@
+<div class="admin-dashboard-pro">
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <i class="fas fa-cubes fa-2x"></i>
+      <span>ADMIN PANEL</span>
+    </div>
+    <nav class="sidebar-nav">
+      <a routerLink="/admin/dashboard" routerLinkActive="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+      <a routerLink="/admin/products" routerLinkActive="active"><i class="fas fa-box"></i> Products</a>
+      <a href="#"><i class="fas fa-shopping-cart"></i> Orders</a>
+      <a href="#"><i class="fas fa-users"></i> Users</a>
+      <a href="#"><i class="fas fa-cog"></i> Settings</a>
+    </nav>
+  </aside>
+  <main class="main-content">
+    <header class="main-header">
+      <h2><i class="fas fa-tachometer-alt"></i> Dashboard</h2>
+      <div class="admin-user">
+        <i class="fas fa-user-circle"></i> admin
+      </div>
+    </header>
+    <section class="stats-grid">
+      <div class="stat-card stat-products">
+        <div class="stat-icon"><i class="fas fa-box"></i></div>
+        <div class="stat-info">
+          <div class="stat-label">Products</div>
+          <div class="stat-value">100</div>
+        </div>
+      </div>
+      <div class="stat-card stat-orders">
+        <div class="stat-icon"><i class="fas fa-shopping-cart"></i></div>
+        <div class="stat-info">
+          <div class="stat-label">Orders</div>
+          <div class="stat-value">15</div>
+        </div>
+      </div>
+      <div class="stat-card stat-users">
+        <div class="stat-icon"><i class="fas fa-users"></i></div>
+        <div class="stat-info">
+          <div class="stat-label">Users</div>
+          <div class="stat-value">50</div>
+        </div>
+      </div>
+      <div class="stat-card stat-revenue">
+        <div class="stat-icon"><i class="fas fa-coins"></i></div>
+        <div class="stat-info">
+          <div class="stat-label">Revenue</div>
+          <div class="stat-value">₫1,200,000,000</div>
+        </div>
+      </div>
+    </section>
+    <section class="dashboard-table">
+      <h3>Recent Orders</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Order ID</th>
+            <th>Customer</th>
+            <th>Status</th>
+            <th>Total</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#1001</td>
+            <td>Nguyen Van A</td>
+            <td><span class="badge badge-success">Completed</span></td>
+            <td>₫25,000,000</td>
+            <td>2025-07-25</td>
+          </tr>
+          <tr>
+            <td>#1002</td>
+            <td>Tran Thi B</td>
+            <td><span class="badge badge-warning">Pending</span></td>
+            <td>₫18,000,000</td>
+            <td>2025-07-25</td>
+          </tr>
+          <tr>
+            <td>#1003</td>
+            <td>Le Van C</td>
+            <td><span class="badge badge-danger">Cancelled</span></td>
+            <td>₫12,000,000</td>
+            <td>2025-07-24</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</div>
